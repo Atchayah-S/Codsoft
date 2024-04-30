@@ -5,7 +5,9 @@ let history=[]
       }
       function Result() {
          var num1 = document.getElementById('res').value;
-         var num2 = eval(num1);
+         num=num1.replace('^','**');
+         num=num.replace('x','*');
+         var num2 = eval(num);
          history.push(num2);
          document.getElementById('res').value = num2;
       }

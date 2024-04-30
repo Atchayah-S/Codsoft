@@ -1,95 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <style>
-      *{
-         padding: 0;
-         margin: 0;
-         font-family: 'Times New Roman', serif;
-      }
-      body{
-         background-color: #182629;
-         display: grid;
-         height: 100vh;
-         place-items: center;
-      }
-      .main{
-         width: 400px;
-         height: 500px;
-         background-color: black;
-         position: absolute;
-         padding: 15px 3px;
-         border: 3px solid gray;
-         border-radius: 3px; 
-      }
-      .main input[type='text'] {
-         width: 92%;
-         position: relative;
-         height: 80px;
-         top: 5px;
-         text-align: right;
-         padding: 2px 3px;
-         outline: none;
-         font-size: 40px;
-         border: 6px solid black;
-         display: flex;
-         margin: auto;
-         border-radius: 6px;
-         color: black;
-         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-      }
-    /*  .H input[type='button']{
-         width: 100%;
-         height: 100%;
-         position: static;
-         border: 2px;
-
-      }*/
-      .btn input[type='button']{
-         width:90px;
-         padding: 2px;
-         margin: 3px 0px;
-         position: relative;
-         left: 15px;
-         top: 15px;
-         height: 60px;
-         cursor: pointer;
-         font-size: 18px;
-         transition: 0.5s;
-         background-color: #495250;
-         border-radius: 1px;
-         color: white;
-         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-      }
-      .btn input[type='button']:hover{
-         background-color: black;
-         color: white;
-      }
-   </style>
-   <script>
-      let history=[]
-      function Solve(val) {
-         var v = document.getElementById('res');
-         v.value += val;
-      }
-      function Result() {
-         var num1 = document.getElementById('res').value;
-         var num2 = eval(num1);
-         history.push(num2);
-         document.getElementById('res').value = num2;
-      }
-      function Clear() {
-         var inp = document.getElementById('res');
-         inp.value = '';
-      }
-      function Back() {
-         var ev = document.getElementById('res');
-         ev.value = ev.value.slice(0,-1);
-      }
-      function addToHistory() {
-      document.getElementById('res').value=history.pop();
-}
-
+   <link rel="stylesheet" href="calcStyle.css">
+   <script src="calcScript.js">
    </script>
    <title>Calulator</title>
 </head>
@@ -99,16 +12,18 @@
       <div class="btn">
          <input type="button" value= &#x1F552; onclick="addToHistory()">
          <input type="button" value = 'AC' onclick = "Clear()">
+         <input type="button" value = '←' onclick ="Back('←')">
+         <input type="button" value = '%' onclick = "Solve('%')">
+         <br>
          <input type="button" value= '&#40' onclick="Solve('&#40')">
          <input type="button" value= '&#41' onclick="Solve('&#41')">
-         <input type="button" value = '%' onclick = "Solve('%')">
-         <input type="button" value = '←' onclick ="Back('←')">
+         <input type="button" value='^' onclick="Solve('^')">
          <input type="button" value = '/' onclick = "Solve('/')">
          <br>
          <input type="button" value = '7' onclick = "Solve('7')">
          <input type="button" value = '8' onclick = "Solve('8')">
          <input type="button" value = '9' onclick = "Solve('9')">
-         <input type="button" value = 'x' onclick = "Solve('*')">
+         <input type="button" value = 'x' onclick = "Solve('x')">
          <br>
          <input type="button" value = '4' onclick = "Solve('4')">
          <input type="button" value = '5' onclick = "Solve('5')">
