@@ -20,5 +20,11 @@ let history=[]
          ev.value = ev.value.slice(0,-1);
       }
       function addToHistory() {
-      document.getElementById('res').value=history.pop();
+         var n=history.pop()
+      if(n==undefined){
+      document.getElementById('res').value=None;}
+      else{
+         document.getElementById('res').value=n;
+      }
+
 }

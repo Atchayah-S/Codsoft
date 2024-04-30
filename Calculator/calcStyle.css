@@ -9,9 +9,10 @@
     height: 100vh;
     place-items: center;
  }
+
  .main{
     width: 400px;
-    height: 525px;
+    height: 555px;
     background-color: black;
     position: absolute;
     padding: 12px 3px;
@@ -21,7 +22,7 @@
  .main input[type='text'] {
     width: 92%;
     position: relative;
-    height: 100px;
+    height: 135px;
     top: 5px;
     text-align: right;
     padding: 2px 3px;
@@ -46,7 +47,7 @@
     font-size: 18px;
     transition: 0.5s;
     background-color: #495250;
-    border-radius: 1px;
+    border-radius: 8px;
     color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
  }
