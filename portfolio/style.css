@@ -1,0 +1,17 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    font-family: Helvetica;
+ }
+ .navBar{
+    height: 200px;
+    width: 200px;
+   background-color: rgb(4, 4, 47);
+   color: aliceblue;
+    
+ }
+ .logo{
+    height: auto;
+    width: auto;
+    background-color: black;
+ }
