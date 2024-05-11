@@ -4,27 +4,55 @@
   font-family: 'Times New Roman';
 }
 body{
-  background-image: url('white_bg.avif');
+  margin: 0px;
+  background-image: url('dark_bg.avif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
-#ul1{
-  margin-left: 65%;
-  padding-bottom: 20px;
-}
-.image{
-  margin-left: 20px;
-}
 li{
-  color: aliceblue;
-  font-size: large;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
   margin: 5px;
+  padding-bottom: 20px;
+  list-style: none;
+  text-align: center;
 
 }
+h1,h2,li{
+  color: rgb(251, 251, 251);
+}
 ul,li{
-  display: inline;
+  text-align: center;
+}
+.text{
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+}
+.Skills{
+
+  font-size: 0.5cm;
+  width: 100%;
   text-align: left;
+}
+.python{
+  text-align: center;
+width: 90%;
+background-color:rgb(17 45 172);
+}
+.java,.JS{
+  text-align: center;
+  width:50%;
+  background-color: #86a0ce;
+}
+.Html,.Css,.C{
+  text-align: center;
+  width:75%;
+  background-color: rgb(91 135 242);
+}
+img{
+  display: inline;
 }
 
 .navBar {
@@ -40,9 +68,9 @@ ul,li{
   height: 65px;
   width: 100%;
 }
-.container {
+.container,.headings {
   display: grid;
   align-items: center; 
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 0.5fr 2fr ;
   column-gap: 5px;
 }
