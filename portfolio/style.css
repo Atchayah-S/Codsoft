@@ -3,6 +3,9 @@
   margin: 0;
   font-family: 'Times New Roman';
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   margin: 0px;
   background-image: url('dark_bg.avif');
@@ -10,8 +13,13 @@ body{
   background-attachment: fixed;
   background-size: 100% 100%;
 }
+#sec3{
+  padding-left: 20px;
+  line-height: 1cm;
+}
+#sec1,#sec2{padding-top: 40px;}
 li{
-  color: rgb(255, 255, 255);
+  color: #c5c8d1;
   font-size: x-large;
   margin: 5px;
   padding-bottom: 20px;
@@ -19,17 +27,24 @@ li{
   text-align: center;
 
 }
+#p1{
+  font-size: 0.5cm ;
+  color: rgb(255, 255, 255); 
+  padding-top: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
 h1,h2,li{  color: rgb(81 38 53);}
 ul,li{ text-align: center;}
 a{
   font-size: 0.5cm;
-  color:rgb(161, 245, 245);
+  color:rgb(155, 212, 255);
 }
 .text{
   padding-left: 35px;
   text-align: left;
   color: white;
-  margin-top: 0px;
+ /* margin-top: 0px;*/
 }
 .Skills,.Certificates{
   font-size: 0.5cm;
