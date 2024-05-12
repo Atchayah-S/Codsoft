@@ -19,19 +19,19 @@ li{
   text-align: center;
 
 }
-h1,h2,li{
-  color: rgb(251, 251, 251);
-}
-ul,li{
-  text-align: center;
+h1,h2,li{  color: rgb(81 38 53);}
+ul,li{ text-align: center;}
+a{
+  font-size: 0.5cm;
+  color:rgb(161, 245, 245);
 }
 .text{
-  text-align: center;
+  padding-left: 35px;
+  text-align: left;
   color: white;
   margin-top: 0px;
 }
-.Skills{
-
+.Skills,.Certificates{
   font-size: 0.5cm;
   width: 100%;
   text-align: left;
@@ -51,9 +51,7 @@ background-color:rgb(17 45 172);
   width:75%;
   background-color: rgb(91 135 242);
 }
-img{
-  display: inline;
-}
+img{display: inline;}
 
 .navBar {
   padding: 45px;
