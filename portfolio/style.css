@@ -66,21 +66,10 @@ background-color:rgb(17 45 172);
   width:75%;
   background-color: rgb(91 135 242);
 }
-img{display: inline;}
-
-.navBar {
-  padding: 45px;
-  padding-bottom: 55px;
-  background-image: url('nav_bg.webp');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 24%;
-  background-color: rgb(5, 5, 5);
-  color: rgb(255, 255, 255);
-  display: inline-block;
-  height: 65px;
-  width: 100%;
+img{display: inline;
 }
+
+
 .container,.headings {
   display: grid;
   align-items: center; 
