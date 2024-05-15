@@ -8,7 +8,7 @@ html{
 }
 body{
   margin: 0px;
-  background-image: url('dark_bg.avif');
+  background-image: url('image/dark_bg.avif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -25,7 +25,6 @@ li{
   padding-bottom: 20px;
   list-style: none;
   text-align: center;
-
 }
 #p1{
   font-size: 0.5cm ;
@@ -44,9 +43,8 @@ a{
   padding-left: 35px;
   text-align: left;
   color: white;
- /* margin-top: 0px;*/
 }
-.Skills,.Certificates{
+.Skills,.Certificates,.Education{
   font-size: 0.5cm;
   width: 100%;
   text-align: left;
@@ -66,10 +64,7 @@ background-color:rgb(17 45 172);
   width:75%;
   background-color: rgb(91 135 242);
 }
-img{display: inline;
-}
-
-
+img{display: inline;}
 .container,.headings {
   display: grid;
   align-items: center; 
