@@ -11,4 +11,4 @@ Designed a [landing page](https://drive.google.com/file/d/1Q0anHyvUX6shdHwoqw9Wp
 
 **Task 3- Calculator**
 
-Implemented a Basic[Calculator](https://drive.google.com/file/d/1xXyNwBmPytjbDN6rFCnbXAHh_n2-BDEB/view?usp=sharing) using HTML, CSS, and JavaScript, capable of performing basic mathematical operations. Additionally, integrated a feature to retrieve the history of calculations, enabling users to view the last calculated value for reference.
+Implemented a Basic [Calculator](https://drive.google.com/file/d/1xXyNwBmPytjbDN6rFCnbXAHh_n2-BDEB/view?usp=sharing) using HTML, CSS, and JavaScript, capable of performing basic mathematical operations. Additionally, integrated a feature to retrieve the history of calculations, enabling users to view the last calculated value for reference.
