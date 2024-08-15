@@ -6,7 +6,7 @@ Created a [personal portfolio website](https://drive.google.com/file/d/14aD35CmV
 
 **Task 2- Landing Page**
 
-Designed a [landing page](https://drive.google.com/file/d/1Q0anHyvUX6shdHwoqw9Wp3GOWDEEYtZ8/view?usp=sharing) for "Jash Resin Art" products using HTML and CSS to present an engaging introduction to the brand's unique resin art creations.  The landing page aims attract potential cusotmers and provide them with essenital information about the products and brand.
+Designed a [landing page](https://drive.google.com/file/d/1Q0anHyvUX6shdHwoqw9Wp3GOWDEEYtZ8/view?usp=sharing) for "Jash Resin Art" products using HTML and CSS to present an engaging introduction to the brand's unique resin art creations.  The landing page aims attract potential customers and provide them with essential information about the products and brand.
 
 
 **Task 3- Calculator**
